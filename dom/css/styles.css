@@ -1,0 +1,32 @@
+#another-title{
+    color: black;
+    transition: color 0.5s ease-in-out;
+}
+
+#another-title:hover{
+    color: purple;
+}
+
+#another-title{
+    font-size: 24px;
+    color: black;
+    transition: font-size 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+#another-title:hover{
+    font-size: 30px;
+    color: blue;
+}
+
+#btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+#btn:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+
